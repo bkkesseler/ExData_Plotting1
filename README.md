@@ -3,8 +3,8 @@
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
-datasets. In particular, we will be using the "Individual household
-electric power consumption Data Set" which I have made available on
+datasets. In particular, I used the "Individual household
+electric power consumption Data Set" which our instructors have made available on
 the course web site:
 
 
@@ -35,10 +35,6 @@ web site</a>:
 
 ## Loading the data
 
-
-
-
-
 * My scripts  will only be using data from the dates 2007-02-01 and
 2007-02-02, so I only load those dates.
 
@@ -49,7 +45,6 @@ a datetime variable.
 * Note that in this dataset missing values are coded as `?`, and they were
 converted to NA on read.
 
-
 ## Making Plots
 
 My overall goal here is simply to examine how household energy usage
@@ -59,7 +54,6 @@ using the base plotting system.
 
 First I forked and cloned the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
-
 
 For each plot I:
 
@@ -74,12 +68,11 @@ the `plot1.png` plot. My code file **should include code for reading
 the data** so that the plot can be fully reproduced. I also
 include the code that creates the PNG file.
 
-* Add the PNG file and R code file to your git repository
+* Add the PNG file and R code file to my git repository
 
 When I finished with the assignment, I pushed my git repository to
 GitHub so that the GitHub version of my repository is up to
-date. There should be four PNG files and four R code files.
-
+date. There are four PNG files and four R code files.
 
 The four plots that I needed to construct are shown below, with my created plots
 below each.
@@ -108,4 +101,3 @@ below each.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 ![plot of chunk unnamed-chunk-5](plot4.png)
-
